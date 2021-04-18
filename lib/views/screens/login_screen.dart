@@ -1,8 +1,9 @@
-import 'package:authentication_repository/authentication_repository.dart';
-import 'package:bloc_login/login/bloc/login_bloc.dart';
-import 'package:bloc_login/login/views/login_form.dart';
+import 'package:bloc_login/blocs/login/bloc/login_bloc.dart';
+import 'package:bloc_login/views/widgets/login_form.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+
+import 'package:bloc_login/repositories/authentication_repository.dart';
 
 class LoginScreen extends StatelessWidget {
   static Route route() {

@@ -1,11 +1,11 @@
 import 'dart:async';
 
-import 'package:authentication_repository/authentication_repository.dart';
 import 'package:bloc/bloc.dart';
-import 'package:bloc_login/login/models/models.dart';
+import 'package:bloc_login/models/values.dart';
 import 'package:equatable/equatable.dart';
 import 'package:formz/formz.dart';
-import 'package:bloc_login/login/login.dart';
+
+import 'package:bloc_login/repositories/authentication_repository.dart';
 part 'login_event.dart';
 part 'login_state.dart';
 
